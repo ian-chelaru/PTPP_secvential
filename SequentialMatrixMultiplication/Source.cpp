@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-	FILE *f = fopen("matrices/A10.txt", "r");
-	FILE *g = fopen("matrices/B10.txt", "r");
+	FILE *f = fopen("matrices/A.txt", "r");
+	FILE *g = fopen("matrices/B.txt", "r");
 	int n, m;
 	fscanf(f, "%d", &n);
 	fscanf(g, "%d", &m);
@@ -56,7 +56,7 @@ int main()
 	time_taken *= 1e-6;
 	printf("Execution time: %lf miliseconds", time_taken);
 
-	FILE *h = fopen("matrices/C10.txt", "w");
+	FILE *h = fopen("matrices/C.txt", "w");
 
 	for (int i = 0; i < n; i++)
 	{
