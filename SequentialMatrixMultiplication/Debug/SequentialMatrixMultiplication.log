@@ -1,0 +1,7 @@
+﻿  Source.cpp
+d:\vsprojects\sequentialmatrixmultiplication\sequentialmatrixmultiplication\source.cpp(55): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  SequentialMatrixMultiplication.vcxproj -> D:\VSProjects\SequentialMatrixMultiplication\Debug\SequentialMatrixMultiplication.exe
